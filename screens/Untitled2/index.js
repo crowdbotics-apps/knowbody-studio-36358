@@ -1,3 +1,4 @@
+import { TextInput } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
@@ -17,7 +18,21 @@ const Untitled2 = () => {
       backgroundColor: "#E4E4E4",
       borderRadius: 0,
       color: "#777777"
-    }}></View></View>;
+    }}></View><View style={{
+      left: 43,
+      top: 58,
+      position: "absolute",
+      width: 80,
+      height: 80,
+      backgroundColor: "#E4E4E4",
+      borderRadius: "50%"
+    }}></View><TextInput style={{
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 30
+    }}></TextInput></View>;
 };
 
 export default Untitled2;
